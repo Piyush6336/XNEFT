@@ -196,6 +196,10 @@
         height: 100vh;
         margin: 0;
       }
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
 
       .card {
         background-color: hsl(216, 50%, 16%);
@@ -309,6 +313,7 @@
     </style>
   </head>
   <body>
+    <div class="container">
     <main class="card">
       <div class="card__images">
         <img src="./public/image-equilibrium.jpg" alt="NFT preview" />
@@ -341,5 +346,6 @@
       Coded by
       <a href="https://github.com/ketanmakode" target="_blank">Ketan Makode</a>.
     </footer>
+    </div>
   </body>
 </html>
